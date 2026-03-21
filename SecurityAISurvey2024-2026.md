@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This report systematically analyzes AI/ML security research trends across IEEE S&P, USENIX Security, ACM CCS, and NDSS from 2024-2026. Based on 235 curated papers spanning 10 conference-years (IEEE S&P 2024-2026, USENIX Security 2024-2025, ACM CCS 2024-2025, NDSS 2024-2026), we identify nine major research directions and propose 10 forward-looking research ideas. Key findings: LLM security, federated learning security, and AI privacy protection are the most active areas, while AI supply chain security and multimodal security are rapidly emerging.
+This report systematically analyzes AI/ML security research trends across IEEE S&P, USENIX Security, ACM CCS, and NDSS from 2024-2026. Based on 224 curated papers spanning 10 conference-years (IEEE S&P 2024-2026, USENIX Security 2024-2025, ACM CCS 2024-2025, NDSS 2024-2026), we identify nine major research directions and propose 10 forward-looking research ideas. Key findings: LLM security, federated learning security, and AI privacy protection are the most active areas, while AI supply chain security and multimodal security are rapidly emerging.
 
 ---
 
@@ -294,7 +294,7 @@ This report systematically analyzes AI/ML security research trends across IEEE S
 
 ## 4. Conclusion
 
-Key observations from 235 AI/ML security papers across 2024-2026 top-4 security conferences (10 conference-years covered):
+Key observations from 224 AI/ML security papers across 2024-2026 top-4 security conferences (10 conference-years covered):
 
 1. **LLM Security is the dominant direction** with explosive growth
 2. **Scope expanding** from model to system, supply chain, and ecosystem security
@@ -306,4 +306,4 @@ The proposed 10 research ideas cover frontier directions including supply chain 
 
 ---
 
-*Report generated March 2026. Based on 235 papers from publicly available materials as of early 2026. Conference coverage: IEEE S&P (2024, 2025, 2026), USENIX Security (2024, 2025), ACM CCS (2024, 2025 partial), NDSS (2024, 2025, 2026). CCS 2025 coverage is partial — additional papers to be added.*
+*Report generated March 2026. Based on 224 papers from publicly available materials as of early 2026. Conference coverage: IEEE S&P (2024, 2025, 2026), USENIX Security (2024, 2025), ACM CCS (2024, 2025 partial), NDSS (2024, 2025, 2026). CCS 2025 coverage is partial — additional papers to be added.*

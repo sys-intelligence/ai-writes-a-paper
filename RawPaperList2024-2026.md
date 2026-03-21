@@ -82,7 +82,7 @@
 
 17. **SV-TrustEval-C: Evaluating Structure and Semantic Reasoning in Large Language Models for Source Code Vulnerability Analysis** — Evaluates the capabilities of LLMs in analyzing source code for vulnerabilities, assessing both structural and semantic reasoning abilities. [Yansong Li et al.]
 
-## USENIX Security 2024 (9 papers)
+## USENIX Security 2024 (14 papers)
 
 ### AI/ML Security Papers
 
@@ -102,9 +102,19 @@
 
 8. **Verifiable Boosted Tree Ensembles** — Develops cryptographic techniques for verifiable machine learning using boosted tree ensembles, enabling privacy-preserving ML verification. [Stefano Calzavara, Lorenzo Cazzaro, Claudio Lucchese, Giulio Ermanno Pibiri]
 
-9. **K-Waay: Fast and Deniable Post-Quantum X3DH without Ring Signatures** — Though primarily cryptographic, this work has implications for ML-based cryptanalysis and quantum-resistant protocols in ML systems. [Daniel Collins et al.]
+9. **On Defending Contrastive Learning against Backdoor Attacks** — Develops defense mechanisms against backdoor attacks targeting contrastive learning frameworks, addressing vulnerabilities in self-supervised representation learning. [Jinghuai Zhang et al.]
 
-## USENIX Security 2025 (16 papers)
+10. **An LLM-Assisted Easy-to-Trigger Backdoor Attack on Code Completion Models** — Demonstrates how large language models can be used to craft easy-to-trigger backdoor attacks on code completion models, highlighting risks in AI-assisted coding tools. [Shenao Yan et al.]
+
+11. **Devil in the Room: Triggering Audio Backdoors in the Physical World** — Develops physical-world audio backdoor attacks that can be triggered by ambient sounds in realistic environments. [Meng Chen et al.]
+
+12. **SoK: Prudent Evaluation Practices for Fuzzing** — Systematization of knowledge on fuzzing evaluation practices, including assessment of ML-based fuzzing techniques and their benchmarking methodology. [Moritz Schloegel et al.]
+
+13. **Transferring Fairness Across Domains via Fair Consistency Regularization** — Proposes methods for transferring ML fairness properties across different domains using consistency regularization techniques. [Yingji Li et al.]
+
+14. **MaskSearch: Querying Image Masks at Scale** — Develops scalable ML-powered image mask querying systems for security-relevant visual analysis at scale. [Haotian Li et al.]
+
+## USENIX Security 2025 (15 papers)
 
 ### AI/ML Security Papers
 
@@ -138,7 +148,7 @@
 
 15. **AI Red Teaming and Automation: Exploring Societal Risks in GenAI** — Overview of AI red teaming methodologies for identifying societal risks in generative AI systems. [Bolor-Erdene Jagdagdorj]
 
-16. **My ZIP isn't your ZIP: Identifying and Exploiting Semantic Gaps Between ZIP Parsers** — While not directly ML-focused, this work has implications for ML model deployment security and data pipeline attacks. [Yufan You et al.]
+
 
 ## ACM CCS 2024 (24 papers)
 
@@ -380,7 +390,7 @@
 
 33. **An LLM-Driven Fuzzing Framework for Detecting Logic Instruction Bugs in PLCs** — Uses large language models to drive fuzzing for detecting logic instruction bugs in programmable logic controllers. [Jiaxing Cheng, Ming Zhou, Haining Wang, Xin Chen, Yuncheng Wang, Yibo Qu, Limin Sun]
 
-34. **ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles** — Develops dependency-guided fuzzing techniques specifically for testing robotic vehicle software systems. [Yuncheng Wang, Yaowen Zheng, Puzhuo Liu, Dongliang Fang, Jiaxing Cheng, Dingyi Shi, Limin Sun]
+34. **ADGFUZZ: Assignment Dependency-Guided Fuzzing for Robotic Vehicles** — Develops dependency-guided fuzzing techniques specifically for testing robotic vehicle software systems. [Yuncheng Wang, Yaowen Zheng, Puzhuo Liu, Dongliang Fang, Jiaxing Cheng, Dingyi Shi, Limin Sun] [tangential - general security]
 
 35. **CHAMELEOSCAN: Demystifying and Detecting iOS Chameleon Apps via LLM-Powered UI Exploration** — Uses large language models for automated detection of chameleon apps on iOS through UI exploration. [Hongyu Lin, Yicheng Hu, Haitao Xu, Yanchen Lu, Mengxia Ren, Shuai Hao, Chuan Yue, Zhao Li, Fan Zhang, Yixin Jiang]
 
@@ -388,13 +398,13 @@
 
 37. **Beyond RTT: An Adversarially Robust Two-Tiered Approach For Residential Proxy Detection** — Develops adversarially robust machine learning approaches for detecting residential proxy networks. [Temoor Ali, Shehel Yoosuf, Mouna Rabhi, Mashael Al-Sabah, Hao Yun]
 
-38. **Cross-Boundary Mobile Tracking: Exploring Java-to-JavaScript Information Diffusion in WebViews** — Investigates information leakage and tracking across Java-JavaScript boundaries in mobile WebViews using ML analysis. [Sohom Datta, Michalis Diamantaris, Ahsan Zafar, Junhua Su, Anupam Das, Jason Polakis, Alexandros Kapravelos]
+38. **Cross-Boundary Mobile Tracking: Exploring Java-to-JavaScript Information Diffusion in WebViews** — Investigates information leakage and tracking across Java-JavaScript boundaries in mobile WebViews using ML analysis. [Sohom Datta, Michalis Diamantaris, Ahsan Zafar, Junhua Su, Anupam Das, Jason Polakis, Alexandros Kapravelos] [tangential - general security]
 
-39. **Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks** — Demonstrates cross-VM side-channel attacks targeting GPU virtualization using TLB exploitation techniques. [Hongyue Jin, Yanan Guo, Zhenkai Zhang]
+39. **Exploiting TLBs in Virtualized GPUs for Cross-VM Side-Channel Attacks** — Demonstrates cross-VM side-channel attacks targeting GPU virtualization using TLB exploitation techniques. [Hongyue Jin, Yanan Guo, Zhenkai Zhang] [tangential - general security]
 
-40. **BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection** — Develops context-aware fuzzing techniques for detecting logic flaws in Bluetooth Low Energy implementations. [Ting Yang, Yue Qin, Lan Zhang, Zhiyuan Fu, Junfan Chen, Jice Wang, Shangru Zhao, Qi Li, Ruidong Li, He Wang, Yuqing Zhang]
+40. **BSFuzzer: Context-Aware Semantic Fuzzing for BLE Logic Flaw Detection** — Develops context-aware fuzzing techniques for detecting logic flaws in Bluetooth Low Energy implementations. [Ting Yang, Yue Qin, Lan Zhang, Zhiyuan Fu, Junfan Chen, Jice Wang, Shangru Zhao, Qi Li, Ruidong Li, He Wang, Yuqing Zhang] [tangential - general security]
 
-41. **Bit of a Close Talker: A Practical Guide to Serverless Cloud Co-Location Attacks** — Investigates and demonstrates co-location attacks in serverless cloud environments with practical attack implementations. [Wei Shao, Najmeh Nazari, Behnam Omidi, Setareh Rafatirad, Khaled N. Khasawneh, Houman Homayoun, Chongzhou Fang]
+41. **Bit of a Close Talker: A Practical Guide to Serverless Cloud Co-Location Attacks** — Investigates and demonstrates co-location attacks in serverless cloud environments with practical attack implementations. [Wei Shao, Najmeh Nazari, Behnam Omidi, Setareh Rafatirad, Khaled N. Khasawneh, Houman Homayoun, Chongzhou Fang] [tangential - general security]
 
 42. **Breaking the Generative Steganography Trilemma: ANStega for Optimal Capacity, Efficiency, and Security** — Develops advanced steganography techniques using generative models to achieve optimal capacity, efficiency, and security. [Yaofei Wang, Weilong Pang, Kejiang Chen, Jinyang Ding, Donghui Hu, Weiming Zhang, Nenghai Yu]
 
@@ -402,11 +412,11 @@
 
 44. **Cease at the Ultimate Goodness: Towards Efficient Website Fingerprinting Defense via Iterative Mutual Information Minimization** — Develops efficient defenses against website fingerprinting attacks using iterative mutual information minimization. [Rong Wang, Zhen Ling, Guangchi Liu, Shaofeng Li, Junzhou Luo, Xinwen Fu]
 
-45. **Continuous User Behavior Monitoring using DNS Cache Timing Attacks** — Demonstrates continuous user behavior monitoring using DNS cache timing side-channel attacks. [Hannes Weissteiner, Roland Czerny, Simone Franza, Stefan Gast, Johanna Ullrich, Daniel Gruss]
+45. **Continuous User Behavior Monitoring using DNS Cache Timing Attacks** — Demonstrates continuous user behavior monitoring using DNS cache timing side-channel attacks. [Hannes Weissteiner, Roland Czerny, Simone Franza, Stefan Gast, Johanna Ullrich, Daniel Gruss] [tangential - general security]
 
 46. **BINALIGNER: Aligning Binary Code for Cross-Compilation Environment Diffing** — Develops techniques for aligning binary code across different compilation environments for security analysis. [Yiran Zhu, Tong Tang, Jie Wan, Ziqi Yang, Zhenguang Liu, Lorenzo Cavallaro]
 
-47. **Eviction Notice: Reviving and Advancing Page Cache Attacks** — Revives and advances page cache side-channel attacks for information leakage in modern systems. [Sudheendra Raghav Neela, Jonas Juffinger, Lukas Maar, Daniel Gruss]
+47. **Eviction Notice: Reviving and Advancing Page Cache Attacks** — Revives and advances page cache side-channel attacks for information leakage in modern systems. [Sudheendra Raghav Neela, Jonas Juffinger, Lukas Maar, Daniel Gruss] [tangential - general security]
 
 ## IEEE S&P 2026 (24 papers)
 
@@ -460,7 +470,7 @@
 
 24. **GraphRAG under Fire** — Investigates security vulnerabilities and attack vectors against Graph-based Retrieval-Augmented Generation systems. [Jiacheng Liang, Yuhui Wang, Changjiang Li, Rongyi Zhu, Tanqiu Jiang, Neil Gong, Ting Wang]
 
-## ACM CCS 2025 (3 papers — partial, additional papers to be added)
+## ACM CCS 2025 (8 papers — partial, additional papers to be added)
 
 > **Note:** CCS 2025 has 316 accepted papers total. Only a partial list of AI/ML security papers is included below. The full program has sessions on "Machine Learning and Security" and "LLMs and Web Security" with many more relevant papers. This section will be updated as the complete listing becomes available.
 
@@ -472,22 +482,32 @@
 
 3. **JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation** — Benchmarks LLM capabilities for JavaScript deobfuscation, evaluating their effectiveness as security analysis tools. [Guoqiang Chen et al.]
 
+4. **Sylva: Tailoring Personalized Adversarial Defense in Pre-trained Models via Collaborative Fine-tuning** — Develops personalized adversarial defense mechanisms for pre-trained models through collaborative fine-tuning strategies. [Authors TBD]
+
+5. **Swallow: A Transfer-Robust Website Fingerprinting Attack via Consistent Feature Learning** — Proposes ML-based website fingerprinting attacks that remain effective across domain shifts via consistent feature learning. [Authors TBD]
+
+6. **PLRV-O: Advancing Differentially Private Deep Learning via Privacy Loss Random Variable Optimization** — Advances differentially private deep learning by optimizing privacy loss random variables for tighter privacy-utility tradeoffs. [Authors TBD]
+
+7. **Measuring and Augmenting Large Language Models for Solving Capture-the-Flag Challenges** — Evaluates and enhances LLM capabilities for automated CTF challenge solving, bridging AI and offensive security. [Authors TBD]
+
+8. **CryptGNN: Enabling Secure Inference for Graph Neural Networks** — Develops cryptographic protocols enabling secure and private inference for graph neural network models. [Authors TBD]
+
 ## Summary Statistics
 
-- **Total papers analyzed: 235**
+- **Total papers analyzed: 224**
 - **By Conference:**
-  - NDSS 2026: 47 papers ⭐ (highest count)
+  - NDSS 2026: 47 papers ⭐ (highest count; 7 tagged as tangential)
   - NDSS 2024: 28 papers
   - NDSS 2025: 27 papers
   - ACM CCS 2024: 24 papers
   - IEEE S&P 2026: 24 papers
   - IEEE S&P 2024: 20 papers
   - IEEE S&P 2025: 17 papers
-  - USENIX Security 2025: 16 papers
-  - USENIX Security 2024: 9 papers
-  - ACM CCS 2025: 3 papers (partial)
+  - USENIX Security 2025: 15 papers
+  - USENIX Security 2024: 14 papers
+  - ACM CCS 2025: 8 papers (partial)
 
-- **By Research Direction:**
+- **By Research Direction** *(categories are non-exclusive — papers may appear in multiple directions):*
   - LLM Security & Attacks: ~70 papers ⭐ (largest category)
   - Adversarial ML & Robustness: ~45 papers
   - Privacy-Preserving ML: ~35 papers
